@@ -2,10 +2,34 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RNG</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+
+
+    <header>
+      <nav>
+        <ul>        
+          <div class="navbtn">
+          
+          
+           
+            <Button id="tools"><img class="navicons" src="./assets/icons/tool.svg" alt=""></Button>
+            <ul class="dropdown-content">
+            <li><a href="/src/index.html">Range</a></li>
+            <li><a href="/src/Dice/">Dice</a></li>
+            <li><a href="/src/Pwd/">Pwd</a></li>
+            </ul>
+
+            <Button id="info"><img class="navicons" src="./assets/icons/info.svg" alt=""></Button>
+          
+          
+          </div>
+        </ul>
+      </nav>
+    </header>
 
     <main id="mainpage">
     <h1>RNG</h1>
@@ -23,8 +47,11 @@
 
     <br>
     <h1 id="output">null</h1>
+
+    
     </main>
 
-    <script src="randomnum.js"></script>
+    <script src="./assets/js/dropdown.js"></script>
+    <script src="./assets/js/randomnum.js"></script>
   </body>
 </html>
