@@ -152,6 +152,24 @@ button:active {
 }
 
 
+#options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
 
+#options button {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
 
+#roll {
+  margin-top: 100px;
+  width: 10rem;
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  
+}
 

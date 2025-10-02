@@ -25,6 +25,10 @@ SubmitValueBinary.addEventListener("click", () => {
 });
 
 
+
+
+
+
 ClearValue.addEventListener("click", () => {
     OutputValue.innerHTML = "Empty";
     InputValue.innerHTML = null;
