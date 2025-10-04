@@ -42,8 +42,11 @@ jobs:
         npx electron-builder --linux deb,rpm
         npx electron-builder --win nsis
     
-    - name: Upload artifacts
+    - name: Upload Electron build artifacts
       uses: actions/upload-artifact@v3
       with:
         name: electron-build
-        path: dist/**/*  # adjust if your build output is elsewhere
+        path: |
+          dist/*.deb
+          dist/*.rpm
+          dist/*.exe
