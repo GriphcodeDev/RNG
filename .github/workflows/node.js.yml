@@ -43,10 +43,11 @@ jobs:
         npx electron-builder --win nsis
     
     - name: Upload Electron build artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: electron-build
+        name: rng-build
         path: |
-          dist/*.deb
-          dist/*.rpm
-          dist/*.exe
+          dist/rng-*.deb
+          dist/rng-*.rpm
+          dist/rng-*.exe
+
