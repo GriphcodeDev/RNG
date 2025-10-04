@@ -11,10 +11,10 @@ A minimalistic app that lets you generate random outcomes. Built using **HTML**,
 Current Features:
 
 - Range generator
-
+- Dice Rolls
+  
 Upcoming Features:
 
-- Dice Rolls  
 - Coin Flip  
 - Password Generator  
 
@@ -35,6 +35,12 @@ git clone https://github.com/GriphcodeDev/RNG
 
 ```sh
 npm run package
+```
+
+### or
+
+```sh
+npm run dist
 ```
 
 ---
