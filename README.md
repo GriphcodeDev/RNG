@@ -1,3 +1,5 @@
+<img src="/src/appicon/icon48.png" alt="RNG">
+
 # RNG (I dont have a good name yet :/)
 
 A minimalistic app that lets you generate random outcomes. Built using **HTML**, **CSS**, and **JavaScript**. The app is designed to be mobile-friendly and responsive, perfect for quick random decisions or fun experiments.

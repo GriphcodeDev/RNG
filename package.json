@@ -1,16 +1,24 @@
 {
   "name": "rng",
   "productName": "rng",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "version": "2.0.0",
+  "description": "An application built to do Random stuff :)",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "dist": "electron-builder"
   },
+  "build": {
+  "appId": "griphcode.dev",
+  "win": {
+    "icon": "appicon/win/icon48.ico",
+    "target": "portable"
+  }
+},
   "keywords": [],
   "author": {
     "name": "Griphcode",
@@ -29,6 +37,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.9.0",
     "@electron-forge/plugin-fuses": "^7.9.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^38.2.0"
+    "electron": "^38.2.0",
+    "electron-builder": "^26.0.12"
   }
 }

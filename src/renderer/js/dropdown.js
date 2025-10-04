@@ -1,11 +1,11 @@
 
 document.querySelector("#tools").addEventListener("click", function (e) {
   e.preventDefault();
-  const dropdown = this.nextElementSibling; // the <ul> after the button
+  const dropdown = this.nextElementSibling;
   dropdown.classList.toggle("show");
 });
 
-// Close dropdown when clicking outside
+
 window.addEventListener("click", function (e) {
   const button = document.querySelector("#tools");
   const dropdown = document.querySelector("#tools").nextElementSibling;

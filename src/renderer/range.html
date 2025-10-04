@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RNG</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
 
 
-    <header>
+    <header class="animate__animated animate__fadeInDown">
       <nav>
         <ul>        
           <div class="navbtn">
@@ -18,22 +19,25 @@
            
             <Button id="tools"><img class="navicons" src="./assets/icons/tool.svg" alt=""></Button>
             <ul class="dropdown-content">
-            <li><a href="/src/index.html">Range</a></li>
-            <li><a href="/src/Dice/">Dice</a></li>
-            <li><a href="/src/Pwd/">Pwd</a></li>
+            <li><a href="#">Range</a></li>
+            <li><a href="dice.html">Dice</a></li>
+            <li><a href="pwd.html">Pwd</a></li>
             </ul>
 
-            <Button id="info"><img class="navicons" src="./assets/icons/info.svg" alt=""></Button>
-          
+            
+
+            <a href="index.html">
+            <Button id="info"><img class="navicons" src="./assets/icons/home.svg" alt=""></Button>
+            </a>
           
           </div>
         </ul>
       </nav>
     </header>
 
-    <main id="mainpage">
+    <main id="mainpage" class="animate__animated animate__fadeInDown">
     
-    <h1>RNG</h1>
+    <h1>Random Number</h1>
     
 
     <input type="number" id="input" placeholder="Range">
@@ -53,7 +57,7 @@
     
     </main>
 
-    <script src="./assets/js/dropdown.js"></script>
-    <script src="./assets/js/randomnum.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/randomnum.js"></script>
   </body>
 </html>
